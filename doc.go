@@ -17,3 +17,6 @@ package impersonate
 // browser environment and does not guarantee bypassing any site's detection.
 // See the module README for supported protocols, proxy boundaries, and
 // lifecycle details.
+//
+// Deprecated: This module has moved to
+// github.com/Xwudao/go-req-ext/impersonate. Use that module for new code.

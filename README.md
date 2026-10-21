@@ -1,5 +1,8 @@
 # go-req-impersonate
 
+> **已迁移**：代码已迁移到 [`go-req-ext`](https://github.com/Xwudao/go-req-ext) 的 `impersonate` 子模块。
+> 新的引入路径是 `github.com/Xwudao/go-req-ext/impersonate`。本仓库保留历史，不再更新。
+
 `go-req-impersonate`（package `impersonate`）是 [`go-req`](https://github.com/Xwudao/go-req) 的可选浏览器指纹扩展模块。
 
 它提供一个标准库 `http.RoundTripper`，用于模拟特定浏览器快照的 TLS ClientHello、ALPN 和 HTTP/2 行为。核心 `go-req` 不依赖 uTLS、tls-client 或 fhttp，也不需要为了指纹功能修改自身：
